@@ -1,5 +1,7 @@
 # Image Captioning with Transformers : Critical Autonomous Driving Scenarios 
-In this workshop, we will run the inference of OFA on image captioning with Huggingface Transformers.The goal is to develop a model that can effectively describe a given scene related to safety-critical situations, such as traffic accidents or emergency response scenarios and provide a possible solution to handle the hazardous situation. What you need to do is to use an input image with some simple preprocessing, build the model and generator and obtain the imgage captioning text. The text will be used as prompting to GPT4all to generate an answer. Have fun 💃 🕺
+In this workshop, we will run the inference of OFA on image captioning with Huggingface Transformers.The goal is to develop a model that can effectively describe a given scene related to safety-critical situations, such as traffic accidents or emergency response scenarios and provide a possible solution to handle the hazardous situation. What you need to do is to use an input image with some simple preprocessing, build the model and generator and obtain the imgage captioning text. The text will be used as prompting to GPT4all to generate an answer. 
+
+![Alt text](./SafetyCriticalDecisionforAD.png)
 
 ## Task Description
 
