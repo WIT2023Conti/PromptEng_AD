@@ -23,6 +23,7 @@ Run the following steps in your Google Colab:
 ### Installation and preparation : OFA
 
 ```python
+!git clone --single-branch --branch feature/add_transformers https://github.com/OFA-Sys/OFA.git
 !pip install pytorch-transformers
 !pip -q install git+https://github.com/huggingface/transformers
 !pip -q install accelerate>=0.12.0
@@ -31,7 +32,6 @@ Run the following steps in your Google Colab:
 
 # Select the model for evaluation : https://huggingface.co/OFA-Sys
 
-!git clone --single-branch --branch feature/add_transformers https://github.com/OFA-Sys/OFA.git
 !git clone https://huggingface.co/OFA-Sys/OFA-tiny
 ```
 ### Prepare your image as input to the model
