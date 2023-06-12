@@ -31,6 +31,7 @@ Run the following steps in your Google Colab:
 
 # Select the model for evaluation : https://huggingface.co/OFA-Sys
 
+!git clone --single-branch --branch feature/add_transformers https://github.com/OFA-Sys/OFA.git
 !git clone https://huggingface.co/OFA-Sys/OFA-tiny
 ```
 ### Prepare your image as input to the model
